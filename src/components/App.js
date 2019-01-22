@@ -1,26 +1,41 @@
+//Dependencias
 import React, { Component } from 'react';
-import logo from './global/images/logo.svg';
+import { Route, Switch, Link } from 'react-router-dom' 
+//Assets
 import './global/css/App.css';
+import logo from './global/images/logo-ciencias.png'
+//Components
+import Navbar from './Navbar/Navbar'
+import Home from './Home/Home'
 
 class App extends Component {
+  
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <main className="App">
+        
+        <Navbar logo={logo}>
+          <Link to="/">INICIO</Link>
+          <Link to="/acercade/">ACERCA DE</Link>
+        </Navbar>
+        
+          <Switch>
+            <Route exact path="/" component={Home}/>
+            {/* <Route path="/acercade/" component={} />
+            <Route path="/blockchain/" component={} />
+            <Route path="/dispositivos-autonomos/" component={} />
+            <Route path="/analitica-aumentada/" component={} />
+            <Route path="/inteligencia-artificial/" component={} />
+            <Route path="/gemelos-digitales/" component={} />
+            <Route path="computacion-cuantica" /> */}
+            <Route render={()=>( <h1>Pagina no encontrada</h1> )} />
+          </Switch>
+        
+        <footer className="footer">
+            @ 2019. Universidad Central de Venezuela (UCV)
+        </footer>
+
+      </main>
     );
   }
 }
