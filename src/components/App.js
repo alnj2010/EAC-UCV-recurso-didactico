@@ -7,6 +7,8 @@ import logo from './global/images/logo-ciencias.png'
 //Components
 import Navbar from './Navbar/Navbar'
 import Home from './Home/Home'
+import Blockchain from './Blockchain/Blockchain'
+import Iartificial from './Iartificial/Iartificial'
 
 class App extends Component {
   
@@ -21,13 +23,13 @@ class App extends Component {
         
           <Switch>
             <Route exact path="/" component={Home}/>
-            {/* <Route path="/acercade/" component={} />
-            <Route path="/blockchain/" component={} />
-            <Route path="/dispositivos-autonomos/" component={} />
+            <Route path="/blockchain/" component={Blockchain} />
+            <Route path="/inteligencia-artificial/" component={Iartificial} />
+            {/*<Route path="/dispositivos-autonomos/" component={} />
             <Route path="/analitica-aumentada/" component={} />
-            <Route path="/inteligencia-artificial/" component={} />
             <Route path="/gemelos-digitales/" component={} />
-            <Route path="computacion-cuantica" /> */}
+            <Route path="computacion-cuantica" /> 
+            <Route path="/acercade/" component={} />*/}
             <Route render={()=>( <h1>Pagina no encontrada</h1> )} />
           </Switch>
         

@@ -4,6 +4,8 @@
     background: linear-gradient(to bottom, rgba(242,236,225,1) 0%, rgba(242,236,225,1) 55%, rgba(222,220,220,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2ece1', endColorstr='#dedcdc', GradientType=0 );
     display: flex;
+    justify-content: space-between;
+    padding: 50px;
     
 }
 
