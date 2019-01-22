@@ -1,0 +1,37 @@
+nav {
+    height: 60px;
+    background: rgba(150,90,36,1);
+    background: linear-gradient(to bottom, rgba(150,90,36,1) 0%, rgba(150,90,36,1) 51%, rgba(97,57,22,1) 89%, rgba(97,57,22,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#965a24', endColorstr='#613916', GradientType=0 );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    margin-left: 50px;
+    margin-bottom: 5px; 
+    width: 50px;
+    height: 50px;
+}
+
+nav .menu {
+    width: 300px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .menu li a {
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-decoration: none;
+}
+
+nav .menu li a:hover {
+    background-color: black;
+}
