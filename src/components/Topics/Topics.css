@@ -1,6 +1,6 @@
 .topics {
     height: auto;
-    background-color: white;
+    background-color: #f5f8fc;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
