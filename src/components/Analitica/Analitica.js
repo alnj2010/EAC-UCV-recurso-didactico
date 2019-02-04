@@ -1,7 +1,7 @@
 //Dependencias
 import React from 'react'
 //Assets
-import bannerImg from '../global/images/blockchain/banner-blockchain.jpg'
+import bannerImg from '../global/images/analitica/banner-analitica.jpg'
 
 //Components
 import Banner from '../Banner/Banner'
@@ -10,10 +10,10 @@ import Knowthat from '../Knowthat/Knowthat'
 import Other from '../Others/Other/Other'
 import Others from '../Others/Others'
 
-function Blockchain(){
+function Analitica(){
   
     return (
-        <div className="blockchain">
+        <div className="analitica">
             <Banner title="lorem ipsum massa tincidut" image={bannerImg}/>
 
             <Presentation title="Lorem Ipsum">
@@ -46,7 +46,7 @@ function Blockchain(){
                 </article>
                 <article>
                     <h1>Lorem ipsum</h1>
-                    <div className="video"><iframe width="854" height="510" src="https://www.youtube.com/embed/Bo8815AeU7E" title="blockchain video" frameborder="0"></iframe></div>
+                    <div className="video"><iframe width="854" height="510" src="https://www.youtube.com/embed/Bo8815AeU7E" title="Analitica video" frameborder="0"></iframe></div>
                     
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum perferendis excepturi, deleniti exercitationem sit minima eos, ut placeat, et ullam saepe explicabo magnam dolores. Nulla eos dolorum sed iusto enim.Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                         </p>
@@ -66,4 +66,4 @@ function Blockchain(){
         </div>
     );
 }
-export default Blockchain;
+export default Analitica;

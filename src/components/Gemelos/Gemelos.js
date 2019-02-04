@@ -1,42 +1,40 @@
 //Dependencias
 import React from 'react'
 //Assets
-import bannerImg from '../global/images/blogging-business-coding-34140.jpg'
-import blockchainImg from '../global/images/blockchain.jpg'
-import autonomoImg from '../global/images/disp-autonomo.jpg'
-import analiticaImg from '../global/images/analitica.jpg'
-import iaImg from '../global/images/desarrollo-ia.jpeg'
-import gemelosImg from '../global/images/gemelos-digitales.jpg'
-import expImg from '../global/images/inmersivas.jpg'
+import bannerImg from '../global/images/gemelos/banner-gemelos.jpg'
 
 //Components
 import Banner from '../Banner/Banner'
 import Presentation from '../Presentation/Presentation'
-import Topics from '../Topics/Topics'
-import Topic from '../Topics/Topic/Topic'
 import Knowthat from '../Knowthat/Knowthat'
 import Other from '../Others/Other/Other'
 import Others from '../Others/Others'
 
-function Home(){
+function Gemelos(){
   
     return (
-        <div className="home">
+        <div className="gemelos">
             <Banner title="lorem ipsum massa tincidut" image={bannerImg}/>
 
             <Presentation title="Lorem Ipsum">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis veritatis repellendus ab excepturi amet, vero autem. Sed facilis aliquam ab quaerat maxime ea iste voluptatum inventore, omnis, alias magni? Sit?
             </Presentation>
-
-            <Topics>
-                <Topic image={blockchainImg} title="Blockchain" enlace="/blockchain/"/>
-                <Topic image={autonomoImg} title="Dispositivos autónomo" enlace="/dispositivos-autonomos/"/>
-                <Topic image={analiticaImg} title="Analítica aumentada" enlace="/analitica-aumentada/"/>
-                <Topic image={iaImg} title="Desarrollos impulsados por la IA" enlace="/inteligencia-artificial/"/>
-                <Topic image={gemelosImg} title="Gemelos digitales" enlace="/gemelos-digitales/"/>
-                <Topic image={expImg} title="Computación cuántica" enlace="/experiencia/"/>
-            </Topics>
-
+            <div className="content-ia">
+                <article>
+                    <h1>Lorem ipsum</h1>
+                  
+                        <div></div>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, quidem ipsam sit quaerat maiores ratione quisquam numquam animi libero neque optio deleniti, eum qui totam velit reiciendis dolorem recusandae minima. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti doloremque, pariatur numquam accusamus ullam ratione rerum facilis fugiat consequuntur facere veniam blanditiis expedita ad mollitia suscipit, quas dolore earum natus!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit a cupiditate minus, ipsa voluptatum mollitia nemo ea et recusandae ullam quia quidem culpa sunt voluptatem voluptatibus aliquam facere laudantium beatae!
+                    
+                </article>
+                <article>
+                    <div><div></div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto itaque beatae in illum eaque fugiat nemo totam impedit eum excepturi assumenda molestias officiis dolore placeat dolorem suscipit nostrum, obcaecati nulla?</p></div>
+                    <div><div></div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto itaque beatae in illum eaque fugiat nemo totam impedit eum excepturi assumenda molestias officiis dolore placeat dolorem suscipit nostrum, obcaecati nulla?</p></div>
+                    <div><div></div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto itaque beatae in illum eaque fugiat nemo totam impedit eum excepturi assumenda molestias officiis dolore placeat dolorem suscipit nostrum, obcaecati nulla?</p></div>
+                </article>
+            </div>
             <Knowthat>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quis itaque eos non accusantium, voluptate dolore quam delectus officiis voluptatibus assumenda cum, placeat sint quod, deleniti ducimus sed aperiam veritatis.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quis itaque eos non accusantium, voluptate dolore quam delectus officiis voluptatibus assumenda cum, placeat sint quod, deleniti ducimus sed aperiam veritatis.</p>
@@ -49,4 +47,4 @@ function Home(){
         </div>
     );
 }
-export default Home;
+export default Gemelos;
