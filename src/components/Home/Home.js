@@ -1,7 +1,7 @@
 //Dependencias
 import React from 'react'
 //Assets
-import bannerImg from '../global/images/blogging-business-coding-34140.svg'
+import bannerImg from '../global/images/blogging-business-coding-34140.jpg'
 import blockchainImg from '../global/images/blockchain.jpg'
 import autonomoImg from '../global/images/disp-autonomo.jpg'
 import analiticaImg from '../global/images/analitica.jpg'
