@@ -19,6 +19,7 @@ function Blockchain(){
             <Presentation title="Lorem Ipsum">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis veritatis repellendus ab excepturi amet, vero autem. Sed facilis aliquam ab quaerat maxime ea iste voluptatum inventore, omnis, alias magni? Sit?
             </Presentation>
+
             <div className="content-block-chain">
                 <article>
                     <h1> Lorem ipsum </h1>
@@ -44,7 +45,7 @@ function Blockchain(){
                         asperiores nisi illo atque! Officiis modi temporibus deserunt voluptatem.
                     </p>
                 </article>
-                <article>
+                <article className="articleVideo">
                     <h1>Lorem ipsum</h1>
                     <div className="video"><iframe width="854" height="510" src="https://www.youtube.com/embed/Bo8815AeU7E" title="blockchain video" frameborder="0"></iframe></div>
                     
@@ -53,6 +54,22 @@ function Blockchain(){
                         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum perferendis excepturi, deleniti exercitationem sit minima eos, ut placeat, et ullam saepe explicabo magnam dolores. Nulla eos dolorum sed iusto enim.Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                         </p>
                 </article>
+                <div className="content-ia">
+                    <article>
+                        <h1>Lorem ipsum</h1>
+                    
+                            <div></div>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, quidem ipsam sit quaerat maiores ratione quisquam numquam animi libero neque optio deleniti, eum qui totam velit reiciendis dolorem recusandae minima. 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti doloremque, pariatur numquam accusamus ullam ratione rerum facilis fugiat consequuntur facere veniam blanditiis expedita ad mollitia suscipit, quas dolore earum natus!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit a cupiditate minus, ipsa voluptatum mollitia nemo ea et recusandae ullam quia quidem culpa sunt voluptatem voluptatibus aliquam facere laudantium beatae!
+                        
+                    </article>
+                    <article>
+                        <div><div></div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto itaque beatae in illum eaque fugiat nemo totam impedit eum excepturi assumenda molestias officiis dolore placeat dolorem suscipit nostrum, obcaecati nulla?</p></div>
+                        <div><div></div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto itaque beatae in illum eaque fugiat nemo totam impedit eum excepturi assumenda molestias officiis dolore placeat dolorem suscipit nostrum, obcaecati nulla?</p></div>
+                        <div><div></div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto itaque beatae in illum eaque fugiat nemo totam impedit eum excepturi assumenda molestias officiis dolore placeat dolorem suscipit nostrum, obcaecati nulla?</p></div>
+                    </article>
+                </div>
             </div>
             <Knowthat>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quis itaque eos non accusantium, voluptate dolore quam delectus officiis voluptatibus assumenda cum, placeat sint quod, deleniti ducimus sed aperiam veritatis.</p>

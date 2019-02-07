@@ -38,13 +38,32 @@ function Experiencia(){
                 </article>
                 <article>
                     <h1>Lorem ipsum</h1>
-                    <div className="video"><iframe width="854" height="510" src="https://www.youtube.com/watch?v=HxFajoeaF6w" title="Experiencia video" frameborder="0"></iframe></div>
+                    <div className="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HxFajoeaF6w" ftitle="Experiencia video"rameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                     
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum perferendis excepturi, deleniti exercitationem sit minima eos, ut placeat, et ullam saepe explicabo magnam dolores. Nulla eos dolorum sed iusto enim.Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                         </p>
                         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum perferendis excepturi, deleniti exercitationem sit minima eos, ut placeat, et ullam saepe explicabo magnam dolores. Nulla eos dolorum sed iusto enim.Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                         </p>
                 </article>
+
+                <div className="content-ia">
+                    <article>
+                        <h1>Lorem ipsum</h1>
+                    
+                            <div></div>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, quidem ipsam sit quaerat maiores ratione quisquam numquam animi libero neque optio deleniti, eum qui totam velit reiciendis dolorem recusandae minima. 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti doloremque, pariatur numquam accusamus ullam ratione rerum facilis fugiat consequuntur facere veniam blanditiis expedita ad mollitia suscipit, quas dolore earum natus!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit a cupiditate minus, ipsa voluptatum mollitia nemo ea et recusandae ullam quia quidem culpa sunt voluptatem voluptatibus aliquam facere laudantium beatae!
+                        
+                    </article>
+                    <article>
+                        <div><div></div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto itaque beatae in illum eaque fugiat nemo totam impedit eum excepturi assumenda molestias officiis dolore placeat dolorem suscipit nostrum, obcaecati nulla?</p></div>
+                        <div><div></div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto itaque beatae in illum eaque fugiat nemo totam impedit eum excepturi assumenda molestias officiis dolore placeat dolorem suscipit nostrum, obcaecati nulla?</p></div>
+                        <div><div></div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto itaque beatae in illum eaque fugiat nemo totam impedit eum excepturi assumenda molestias officiis dolore placeat dolorem suscipit nostrum, obcaecati nulla?</p></div>
+                    </article>
+                </div>
             </div>
             <Knowthat>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis quis itaque eos non accusantium, voluptate dolore quam delectus officiis voluptatibus assumenda cum, placeat sint quod, deleniti ducimus sed aperiam veritatis.</p>
