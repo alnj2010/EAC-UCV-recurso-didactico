@@ -8,9 +8,12 @@ function Topics(props){
     
     const {children} = props;
     return (
-        <section className="topics">
+        <div className="topics">
+            <h1>Nuevos perfiles que demanda el mercado digital.</h1>              
+        <section>    
             {children}
         </section>
+        </div>
     );
 }
 export default Topics;

@@ -1,5 +1,5 @@
 .others {
-    min-height: 250px;
+    min-height: 330px;
     background: rgba(150,90,36,1);
     background: linear-gradient(to bottom, rgba(150,90,36,1) 0%, rgba(0,0,0,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#965a24', endColorstr='#000000', GradientType=0 );
@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0px 70px;
     
 }
 .other {

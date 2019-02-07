@@ -10,8 +10,9 @@ function Topic(props){
     const {image, title, enlace} = props;
     return (        
             <div className="topic">
-               <Link to={enlace}><img src={image} alt=""/></Link> 
+               <Link to={enlace}><img src={image} alt=""/>
                 <header>{title}</header>
+                </Link> 
             </div>
     );
 }

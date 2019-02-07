@@ -14,39 +14,31 @@ function Experiencia(){
   
     return (
         <div className="experiencia">
-            <Banner title="lorem ipsum massa tincidut" image={bannerImg}/>
+            <Banner title="Experiencias Inmersivas" image={bannerImg}/>
 
-            <Presentation title="Lorem Ipsum">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis veritatis repellendus ab excepturi amet, vero autem. Sed facilis aliquam ab quaerat maxime ea iste voluptatum inventore, omnis, alias magni? Sit?
+            <Presentation title="¿Qué es una experiencia inmersiva? ">
+            <p>Las tecnologías inmersivas son el caso general de las realidades aumentada, virtual y mixta (RA, RV y RM, respectivamente) y engloban a otras como la interactividad háptica, las representaciones holográficas, la realidad disminuida o la teleinmersión. En todos los casos, se trata de reforzar una experiencia digital con elementos adicionales, generalmente sensoriales, para que nos sintamos inmersos en dicha experiencia.</p>
+                        <p>Con este tipo de realidad, tendremos la sensación de estar “inmersos” en una escena u otra realidad. Se crean escenas que se podrán disfrutar en 360 º, en otros casos más avanzados podremos movernos y seguir viendo las diferentes imágenes. Se pueden sumar elementos hápticos que buscan reproducir el tacto, así por ejemplo podríamos tocar un piano virtual y sentir la sensación al tacto de tocar la teclas.</p>
             </Presentation>
             <div className="content-block-chain">
                 <article>
-                    <h1> Lorem ipsum </h1>
+                    <h1>Un poco de Historia.</h1>
                     <p>
                         <div> <img src="" alt=""/></div>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, expedita itaque! Rem, animi harum consequatur
-                        facilis nihil, modi facere, adipisci nam asperiores nisi illo atque! Officiis modi temporibus deserunt voluptatem.
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, expedita itaque! Rem, 
-                        animi harum consequatur facilis nihil, modi facere, adipisci nam asperiores nisi 
-                        illo atque! Officiis modi temporibus deserunt voluptatem.Lorem ipsum, dolor sit
-                         amet consectetur adipisicing elit. Quam, expedita itaque! Rem, animi harum 
-                         consequatur facilis nihil, modi facere, adipisci nam asperiores nisi illo atque! 
-                        Officiis modi temporibus deserunt voluptatem.Lorem ipsum, dolor sit amet 
-                        consectetur adipisicing elit. Quam, expedita itaque! Rem, animi harum consequatur 
-                        facilis nihil, modi facere, adipisci nam asperiores nisi illo atque! Officiis
-                        modi temporibus deserunt voluptatem.Lorem ipsum, dolor sit amet consectetur
-                        adipisicing elit. Quam, expedita itaque! Rem, animi harum consequatur facilis
-                        nihil, modi facere, adipisci nam asperiores nisi illo atque! Officiis modi 
-                        temporibus deserunt voluptatem.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, 
-                        expedita itaque! Rem, animi harum consequatur facilis nihil, modi facere, adipisci 
-                        nam asperiores nisi illo atque! Officiis modi temporibus deserunt voluptatem.Lorem ipsum, dolor sit amet consectetur 
-                        adipisicing elit. Quam, expedita itaque! Rem, animi harum consequatur facilis nihil, modi facere, adipisci nam 
-                        asperiores nisi illo atque! Officiis modi temporibus deserunt voluptatem.
+                        <p>Como se considera a la realidad virtual la primera experiencia inmersiva con medios tecnológicos pues en principio hablaremos de la su historia:</p>
+                        <p>El origen de la realidad virtual se remonta a la Segunda Guerra Mundial. La Marina de Guerra de Estados Unidos contacta con el MIT (Massachusetts Institute of Technology) para la posible creación de un simulador de vuelo apto para el entrenamiento de pilotos de bombarderos. El proyecto fue denominado Whirlwind y su construcción finalizó algunos años más tarde en 1951. No fue hasta 8 años después cuando USAF (United States Air Force) retomó el proyecto bajo el nombre de “Claude Project” y apareció un uso civil de la tecnología 3D.</p>
+                        <p>En 1978, un equipo del MIT liderado por Andrew Lippman realizó el Aspen Movie Map, un programa que permitía al usuario recorrer las calles de la ciudad de Aspen, mediante filmaciones reales del lugar, e interactuar con ciertos edificios, permitiendo ver su interior y datos históricos.</p>
+                        <p>En 1984, la sede de Baltimore de la cadena de parques de diversiones Six Flags estrenó The Sensorium, una sala de cine 4D que combinaba una película con proyección esteroscópica, asientos que vibraban y efectos aromáticos.</p>
+                        <p>En 1991, Sega anunció el lanzamiento del Sega VR, un casco de realidad virtual con pantalla LCD y auriculares estéreo para máquinas arcade y consolas de videojuegos. El aparato se presentó al público en 1993, y se anunció que costaría 200 dólares, pero nunca se comercializó.</p>
+                        <p>En 1994 lanzó el Sega VR-1, un simulador de movimiento que incorporaba un casco con gráficos tridimensionales poligonales y seguimiento de movimientos de la cabeza.</p>
+                        <p>En 2012, Palmer Luckey presentó el primer prototipo del casco de realidad virtual Oculus Rift3 La versión para clientes se comenzó a comercializar en 2015. En 2016, Sony lanzó el PlayStation VR, mientras que HTC y Valve lanzaron el HTC Vive.</p>
+                        
+                        <p></p>
                     </p>
                 </article>
                 <article>
                     <h1>Lorem ipsum</h1>
-                    <div className="video"><iframe width="854" height="510" src="https://www.youtube.com/embed/Bo8815AeU7E" title="Experiencia video" frameborder="0"></iframe></div>
+                    <div className="video"><iframe width="854" height="510" src="https://www.youtube.com/watch?v=HxFajoeaF6w" title="Experiencia video" frameborder="0"></iframe></div>
                     
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum perferendis excepturi, deleniti exercitationem sit minima eos, ut placeat, et ullam saepe explicabo magnam dolores. Nulla eos dolorum sed iusto enim.Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                         </p>

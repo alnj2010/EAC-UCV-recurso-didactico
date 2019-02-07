@@ -1,7 +1,7 @@
 //Dependencias
 import React from 'react'
 //Assets
-import bannerImg from '../global/images/blockchain/banner-blockchain.jpg'
+import bannerImg from '../global/images/blockchain/banner-blockchain1.jpg'
 
 //Components
 import Banner from '../Banner/Banner'
@@ -14,7 +14,7 @@ function Blockchain(){
   
     return (
         <div className="blockchain">
-            <Banner title="lorem ipsum massa tincidut" image={bannerImg}/>
+            <Banner title="Blockchain" image={bannerImg}/>
 
             <Presentation title="Lorem Ipsum">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis veritatis repellendus ab excepturi amet, vero autem. Sed facilis aliquam ab quaerat maxime ea iste voluptatum inventore, omnis, alias magni? Sit?
