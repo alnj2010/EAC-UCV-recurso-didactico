@@ -2,7 +2,38 @@
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: white;
     text-align: right;
-    padding: 50px;    
+    padding: 50px;
+    animation-duration: 1s;
+    animation-name: fadein;
+ 
 }
+
+.banner h1 {
+    font-weight: normal;
+    animation-duration: 2s;
+    animation-name: offsetTitle;
+    animation-timing-function: cubic-bezier(.43,.26,.5,1.65)
+}
+
+@keyframes offsetTitle {
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+  
+    to {
+        opacity: 1;
+    }
+  }
