@@ -34,7 +34,7 @@ function Home(){
 
             <Topics>
                 <Topic image={blockchainImg} title="Blockchain" enlace="/blockchain/"/>
-                <Topic image={autonomoImg} title="Dispositivos autónomo" enlace="/dispositivos-autonomos/"/>
+                <Topic image={autonomoImg} title="Dispositivos autónomos" enlace="/dispositivos-autonomos/"/>
                 <Topic image={analiticaImg} title="Analítica aumentada" enlace="/analitica-aumentada/"/>
                 <Topic image={iaImg} title="Desarrollos impulsados por la IA" enlace="/inteligencia-artificial/"/>
                 <Topic image={gemelosImg} title="Gemelos digitales" enlace="/gemelos-digitales/"/>

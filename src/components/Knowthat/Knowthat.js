@@ -5,7 +5,7 @@ import './Knowthat.css'
 import iconKnowthat from './sabiasque.png'
 
 
-function Knowthat({children, title="¿Sabias que?"}){
+function Knowthat({children, title="¿Sabías que…?"}){
     
     return (
     <section className="know-that">
