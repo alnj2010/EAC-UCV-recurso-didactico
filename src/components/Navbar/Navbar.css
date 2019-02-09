@@ -32,7 +32,8 @@ nav .logo div {
 }
 
 nav .logo div img{
-    width: 30px  !important;
+    width: 33px !important;
+    margin-top: 8px;
 }
 
 nav .menu {

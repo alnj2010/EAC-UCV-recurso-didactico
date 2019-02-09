@@ -13,7 +13,7 @@
 .title-know-that{
     font-size: 25px;
     margin-top:0px; 
-    transform: rotate(350deg) translate(-4px,31px);
+    transform: rotate(350deg) translate(-20px,31px);
 }
 
 .img-know-that{
@@ -37,4 +37,5 @@
 .knowledge p{
     text-align: justify;
     font-size: 21px;
+    margin: 14px 0px;
 }

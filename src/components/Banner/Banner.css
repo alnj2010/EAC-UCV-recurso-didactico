@@ -19,6 +19,7 @@
     animation-name: offsetTitle;
     animation-timing-function: cubic-bezier(.43,.26,.5,1.65);
     padding: 10% 0px;
+    text-transform: uppercase;
 }
 
 @keyframes offsetTitle {
