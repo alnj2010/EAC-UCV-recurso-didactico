@@ -4,7 +4,7 @@ import React from 'react'
 import bannerImg from '../global/images/blogging-business-coding-34140.jpg'
 import blockchainImg from '../global/images/blockchain.jpg'
 import autonomoImg from '../global/images/disp-autonomo.jpg'
-import analiticaImg from '../global/images/analitica.jpg'
+import cuanticaImg from '../global/images/cuantica.jpg'
 import iaImg from '../global/images/desarrollo-ia.jpeg'
 import gemelosImg from '../global/images/gemelos-digitales.jpg'
 import expImg from '../global/images/inmersivas.jpg'
@@ -35,7 +35,7 @@ function Home(){
             <Topics>
                 <Topic image={blockchainImg} title="Blockchain" enlace="/blockchain/"/>
                 <Topic image={autonomoImg} title="Dispositivos autónomos" enlace="/dispositivos-autonomos/"/>
-                <Topic image={analiticaImg} title="Analítica aumentada" enlace="/analitica-aumentada/"/>
+                <Topic image={cuanticaImg} title="Computación cuántica" enlace="/computacion-cuantica/"/>
                 <Topic image={iaImg} title="Desarrollos impulsados por la IA" enlace="/inteligencia-artificial/"/>
                 <Topic image={gemelosImg} title="Gemelos digitales" enlace="/gemelos-digitales/"/>
                 <Topic image={expImg} title="Experiencias inmersivas" enlace="/experiencia/"/>
@@ -48,9 +48,18 @@ function Home(){
                 <p>Quienes decidan estudiar una carrera como esta, podrán ingresar al mercado laboral de manera inmediata y trabajar para diferentes empresas.</p>
             </Knowthat>
             <Others>
-                <Other>Elaboración del recurso:Abraham Navarro Felix Gárcia~Jennifer CádizJhonatan Llerena</Other>
-                <Other>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quae laboriosam porro nisi enim adipisci odit excepturi quis necessitatibus facilis unde atque reprehenderit, natus illum doloribus, modi impedit vitae beatae.</Other>
-                <Other>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dolor impedit aut! Doloribus officiis voluptatum accusamus sunt, asperiores modi! Cupiditate fugit magni deserunt inventore. Laborum aliquam pariatur reprehenderit voluptate autem.</Other>
+                <Other>
+                <ul><b>COLABORADORES<p></p></b>
+                <li>Abraham Navarro</li>
+                <li>Felix Gárcia</li>
+                <li>Jennifer Cádiz</li>
+                <li>Jhonatan Llerena</li>
+                </ul>
+                </Other>
+                <Other><div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/UCV.png/250px-UCV.png" alt=""/>
+                <img src="http://www.ciens.ucv.ve/ciens/coordinacion-de-extension/files/2013/06/reporte.png" alt=""/></div>
+                </Other>
+                <Other><p><b>MATERIA:</b> Enseñanza asistida por comporador.</p><p><b>PROFESORA:</b> Yusneyi Carballo.</p> </Other>
             </Others>
         </div>
     );
