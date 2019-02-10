@@ -70,9 +70,18 @@ function Dispositivos(){
                 <p>También requieren de un cuidado adicional y de una limpieza más frecuente, ya que sus cámaras y sensores deben estar libres de cualquier tipo de suciedad, ya sea polvo, barro e incluso insectos.</p>
             </Knowthat>
             <Others>
-                <Other>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequuntur delectus voluptate necessitatibus, at velit explicabo aut! Tempore, consectetur tenetur. Doloremque vero tempora, eum at numquam eligendi. Voluptate, soluta tempore.</Other>
-                <Other>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quae laboriosam porro nisi enim adipisci odit excepturi quis necessitatibus facilis unde atque reprehenderit, natus illum doloribus, modi impedit vitae beatae.</Other>
-                <Other>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dolor impedit aut! Doloribus officiis voluptatum accusamus sunt, asperiores modi! Cupiditate fugit magni deserunt inventore. Laborum aliquam pariatur reprehenderit voluptate autem.</Other>
+                <Other>
+                <ul><b>COLABORADORES<p></p></b>
+                <li>Abraham Navarro</li>
+                <li>Felix Gárcia</li>
+                <li>Jennifer Cádiz</li>
+                <li>Jhonatan Llerena</li>
+                </ul>
+                </Other>
+                <Other><div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/UCV.png/250px-UCV.png" alt=""/>
+                <img src="http://www.ciens.ucv.ve/ciens/coordinacion-de-extension/files/2013/06/reporte.png" alt=""/></div>
+                </Other>
+                <Other><p><b>MATERIA:</b> Enseñanza asistida por comporador.</p><p><b>PROFESORA:</b> Yusneyi Carballo.</p> </Other>
             </Others>
         </div>
     );

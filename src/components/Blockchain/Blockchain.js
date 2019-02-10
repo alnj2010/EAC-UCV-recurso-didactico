@@ -44,7 +44,7 @@ function Blockchain(){
                         </p>
                 </article>
             </div>
-                            <div className="content-ia">
+                <div className="content-ia">
                     <article>
                         <h1>Ejemplos de sectores donde aplican esta tecnología y cómo se está utilizando</h1>
                     
@@ -71,13 +71,22 @@ function Blockchain(){
                 </div>
             <Knowthat>
                 <h1>¿Sabías que existe la Fundación Blockchain Colombia?</h1>
-                <p>La fundación Blockchain Colombia nace con el objetivo de fomentar la generación del ecosistema descentralizado del país latinoamericano, partiendo desde la educación y la intermediación, para las buenas decisiones del gobierno nacional con respecto al uso de la tecnología blockchain</p>
+                <p>La fundación Blockchain Colombia nace con el objetivo de fomentar la generación del ecosistema descentralizado del país latinoamericano, partiendo desde la educación y la intermediación, para las buenas decisiones del gobierno nacional con respecto al uso de la tecnología blockchain.</p>
                 <p>Con la creación de la Fundación Blockchain Colombia, el futuro de esta tecnología en el país se ve más latente, siendo esta  una oportunidad para muchos empresarios y emprendedores que quieran globalizar sus iniciativas o traer nuevas apuestas al mercado.</p>
             </Knowthat>
             <Others>
-                <Other>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequuntur delectus voluptate necessitatibus, at velit explicabo aut! Tempore, consectetur tenetur. Doloremque vero tempora, eum at numquam eligendi. Voluptate, soluta tempore.</Other>
-                <Other>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quae laboriosam porro nisi enim adipisci odit excepturi quis necessitatibus facilis unde atque reprehenderit, natus illum doloribus, modi impedit vitae beatae.</Other>
-                <Other>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dolor impedit aut! Doloribus officiis voluptatum accusamus sunt, asperiores modi! Cupiditate fugit magni deserunt inventore. Laborum aliquam pariatur reprehenderit voluptate autem.</Other>
+                <Other>
+                <ul><b>COLABORADORES<p></p></b>
+                <li>Abraham Navarro</li>
+                <li>Felix Gárcia</li>
+                <li>Jennifer Cádiz</li>
+                <li>Jhonatan Llerena</li>
+                </ul>
+                </Other>
+                <Other><div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/UCV.png/250px-UCV.png" alt=""/>
+                <img src="http://www.ciens.ucv.ve/ciens/coordinacion-de-extension/files/2013/06/reporte.png" alt=""/></div>
+                </Other>
+                <Other><p><b>MATERIA:</b> Enseñanza asistida por comporador.</p><p><b>PROFESORA:</b> Yusneyi Carballo.</p> </Other>
             </Others>
         </div>
     );

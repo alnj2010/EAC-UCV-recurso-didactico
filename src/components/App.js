@@ -10,7 +10,7 @@ import Home from './Home/Home'
 import Blockchain from './Blockchain/Blockchain'
 import Iartificial from './Iartificial/Iartificial'
 import Dispositivos from './Dispositivos/Dispositivos'
-import Analitica from './Analitica/Analitica'
+import Cuantica from './Cuantica/Cuantica'
 import Gemelos from './Gemelos/Gemelos'
 import Experiencia from './Experiencia/Experiencia'
 
@@ -21,8 +21,8 @@ class App extends Component {
       <main className="App">
         
         <Navbar logo={logo}>
-          <Link to="/">INICIO</Link>
-          <Link to="/acercade/">ACERCA DE</Link>
+          <Link to="/" Class="active">INICIO</Link>
+          <a href="https://es.educaplay.com/es/recursoseducativos/4278070/html5/relaciona_las_imagenes.htm">JUEGO</a>
         </Navbar>
         
           <Switch>
@@ -30,7 +30,7 @@ class App extends Component {
             <Route path="/blockchain/" component={Blockchain} />
             <Route path="/inteligencia-artificial/" component={Iartificial} />
             <Route path="/dispositivos-autonomos/" component={Dispositivos} />
-            <Route path="/analitica-aumentada/" component={Analitica} />
+            <Route path="/computacion-cuantica/" component={Cuantica} />
             <Route path="/gemelos-digitales/" component={Gemelos} />
             <Route path="/experiencia/" component={Experiencia}/> 
             {/*<Route path="/acercade/" component={} />*/}

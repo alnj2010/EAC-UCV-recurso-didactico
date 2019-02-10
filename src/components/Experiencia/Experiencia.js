@@ -22,7 +22,7 @@ function Experiencia(){
             </Presentation>
             <div className="content-block-chain">
                 <article>
-                    <h1>Un poco de Historia.</h1>
+                    <h1>Un poco de historia.</h1>
                     <p>
                         <div> <img src="http://www.seminarioipch.cl/images/estudiante.png" alt=""/></div>
                         <p>Como se considera a la realidad virtual la primera experiencia inmersiva con medios tecnológicos pues en principio hablaremos de la su historia:</p>
@@ -67,9 +67,18 @@ function Experiencia(){
                 <p>A la vez, se aumenta la motivación gracias a la riqueza sensorial que se aporta, algo especialmente atractivo para las nuevas generaciones. El uso de herramientas de RA y RV permite que los estudiantes se conviertan en creadores de su propio contenido virtual y que aprendan creando, en lugar de ser meros consumidores de contenidos.</p>
             </Knowthat>
             <Others>
-                <Other>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam consequuntur delectus voluptate necessitatibus, at velit explicabo aut! Tempore, consectetur tenetur. Doloremque vero tempora, eum at numquam eligendi. Voluptate, soluta tempore.</Other>
-                <Other>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quae laboriosam porro nisi enim adipisci odit excepturi quis necessitatibus facilis unde atque reprehenderit, natus illum doloribus, modi impedit vitae beatae.</Other>
-                <Other>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dolor impedit aut! Doloribus officiis voluptatum accusamus sunt, asperiores modi! Cupiditate fugit magni deserunt inventore. Laborum aliquam pariatur reprehenderit voluptate autem.</Other>
+                <Other>
+                <ul><b>COLABORADORES<p></p></b>
+                <li>Abraham Navarro</li>
+                <li>Felix Gárcia</li>
+                <li>Jennifer Cádiz</li>
+                <li>Jhonatan Llerena</li>
+                </ul>
+                </Other>
+                <Other><div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/UCV.png/250px-UCV.png" alt=""/>
+                <img src="http://www.ciens.ucv.ve/ciens/coordinacion-de-extension/files/2013/06/reporte.png" alt=""/></div>
+                </Other>
+                <Other><p><b>MATERIA:</b> Enseñanza asistida por comporador.</p><p><b>PROFESORA:</b> Yusneyi Carballo.</p> </Other>
             </Others>
         </div>
     );

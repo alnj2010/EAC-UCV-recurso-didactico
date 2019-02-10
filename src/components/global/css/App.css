@@ -124,3 +124,18 @@
   margin-bottom: 70px;
   margin-top: 20px;
 }
+
+.iartificial .content-ia article:nth-child(2) div:nth-child(n) {
+  margin-bottom: 40px;
+}
+
+.iartificial  .content-ia article:nth-child(2) {
+    margin-bottom: 0px;
+}
+
+.cuantica .content-ia img {
+    width: auto;
+    height: auto;
+    border-radius: 31px;
+    margin: 20px 0px 70px 0px;
+}
